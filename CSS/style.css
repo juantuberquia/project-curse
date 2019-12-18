@@ -1,0 +1,666 @@
+/* html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    
+} */
+
+*,*:before, *:after{
+
+    box-sizing: inherit;
+}
+
+
+
+/* FUENTES */
+body{
+
+    font-family: 'Lato', sans-serif; 
+
+}
+
+/* UTILIDADES */
+.d-block
+{
+        display: block;
+}
+
+
+.centrar{
+
+    text-align: center;
+}
+
+.padding_2rem{
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contenedor
+{
+max-width: 1200px;
+margin-left:  auto;
+margin-right: auto;
+font-weight: 300;
+}
+
+.contenedor2{
+
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor3{
+
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.fw-300{
+
+    font-weight: 300;
+}
+
+.fw-700{
+
+    font-weight:700;
+}
+
+
+/* GLOBAL */
+img {
+
+    max-width: 100%;
+    
+}
+
+
+/* CONTENEDOR PRINCIPAL */
+
+
+.contenido-header {
+
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+.contenido-header h1
+{
+    color: white;
+    padding-bottom: 2rem;
+    max-width: 33rem;
+    line-height: 3rem;
+
+}
+
+.barra{
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+
+}
+
+
+
+.contenedor h2{
+
+    text-align: center;
+    padding-top: 2rem;
+    
+}
+
+/* NAVEGACION */
+.navegacion a{
+
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+
+}
+
+
+/* * HEADER */ 
+.header-site{
+
+    background: url(../img/header.jpg);
+    background-position: center;
+    background-size: cover; 
+    /* vh: viewport heigt */
+    height: 100vh; 
+    min-height: 50rem;
+    }
+
+.sub-title{
+
+    text-transform: uppercase;
+    
+}
+
+
+/* GLOBALES */
+h1{
+font-size: 3.8rem,
+    
+}
+
+
+h2{
+    
+    font-size: 3.4rem,
+}
+
+h3{
+    
+    font-size:1.9rem;
+}
+
+h4{
+    font-size: 1.8;
+}
+
+/* ICONOS NOSOTROS */
+
+.iconos-us
+{
+display: flex;
+justify-content: space-between;
+margin-top: 3rem;
+/* margin-top: 5rem; */
+}
+
+.icono{
+
+    text-align: center;
+    flex-basis: calc(33.3% - 1rem) ;
+     
+}
+
+.seccion h2{
+
+    font-weight: 300;
+    font-size: 2rem;
+
+}
+.icono p {
+
+    text-align: justify;
+}
+
+
+/* ICONOS OFERTAS */
+
+.contenedor-ofertas h2
+{
+text-align: center;
+}
+
+
+.contenedor-icono
+{
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+
+}
+
+.iconos-ofertas 
+
+{
+    margin-right: 1em;
+    flex-basis: calc(33.3%);
+    /* display: grid; */
+    border: 1px solid #B5B5B5;
+    background: #F5F5F5;
+
+ }
+
+ .contenido-anuncio{
+    padding: 1rem; 
+    
+   }    
+
+.contenido-anuncio h3{
+
+    margin-top: 1rem;
+    text-align: center;  
+}
+.contenido-anuncio p{
+    height: 2rem;
+}
+
+.price{
+
+    color:#71B100;
+    font-weight: 700;
+}
+
+.boton{
+
+color: white;
+padding: 10px 20px;
+font-size: 1rem ;
+font-weight: 700;
+text-transform: uppercase;
+text-decoration: none;
+display: block;
+}
+
+.boton-naranja{
+
+    background: #E08709;
+    text-align: center;
+}
+.boton-verde{
+
+    background: #71B100;
+    margin-top: 2rem;
+    width:7rem;
+    text-align: center;
+    }
+
+
+    .icons-caracteriticas{
+
+    display: flex;
+    /* padding: 0.8rem; */
+    list-style: none; 
+    }
+
+
+    .icons-caracteriticas li
+    {
+        display: flex;
+        flex: 1;
+        
+        }
+
+        .icons-caracteriticas li img{
+
+            margin-right: 1rem;
+        }
+
+
+
+.ver-todas{
+display: flex;
+justify-content: flex-end;
+margin-right: 1rem;
+}
+
+
+/* CONTACTANOS */
+.imagen-fondo{
+
+    background-image: url(../img/encuentra.jpg);
+    height: 100vh; 
+    background-size: cover; 
+    background-position: center;
+    max-height: 20rem;
+    margin-top: 2rem;
+    }
+
+.titulo{
+    color:white;
+    font-weight: 700; 
+}
+
+ .contenido-contact{
+     padding: 3rem 6rem 6rem 8rem;
+} 
+
+.parrafo{
+    color:white;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 3.8rem;
+    /* padding: 0.6rem; */
+  } 
+
+.boton-contact{
+
+    text-decoration: none;
+    padding: 1rem 2rem 1rem 2rem;
+    background: #E08709;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    margin-bottom: 1rem;
+    font-weight:  bold;
+    font-size: 1rem;
+     }
+
+
+
+          /**** BLOG TESTIMONIOS*** */
+
+
+     .blog-testimonios
+     {
+        display: flex;              
+
+     }
+
+     .zone-blog{
+
+        margin-right: 2rem; 
+        flex-basis: 60%;
+                              
+             }
+
+     .zone-testi{
+
+        flex-basis: 40%;
+     }        
+
+     .zone-blog h3{
+
+        font-weight: 300;
+         text-align: center;
+
+     }
+.blog-1{
+
+        display: flex;
+        padding-top: 0rem;
+             }
+
+.blog-1 img{
+
+    max-width: 17rem;
+    padding: 1rem;
+}
+
+.blog-1 p {
+
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+
+.title-blog1{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    display: block;
+
+    }
+
+.title-blog1::after{
+
+    content: '';
+    display: block;
+    width: 10rem;
+    height: .2rem;
+    margin-top: .8rem;
+    background-color: #E08709;
+    
+}
+
+
+/*** TESTIMONIALES**** */
+.zone-testi h3 {
+
+    font-weight: 300;
+    text-align: center;
+}
+
+.zone-testi div{
+
+    background-color: #71B100;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    color: white;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+
+}
+
+.testimonio {
+
+    margin: 1rem 1rem 1rem 2rem;
+    font-weight: 300;
+    position: relative;
+    margin-left: 5rem;
+
+}
+
+.testimonio::before{
+
+    content: '';
+    background-image: url(../img/comilla.svg);
+    color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    left: -4rem
+
+}
+    
+.zone-testi p {
+
+    text-align: end;
+
+}
+
+
+
+/*** PIE DE PAGINA *** */   
+.site-footer{
+
+    background-color: #333333;
+    height: 4rem;
+    margin-top: 2rem;  
+        }
+
+.contenedor-footer
+{
+
+padding: 1.2rem 0.5rem ; 
+display: flex;
+justify-content: space-between;
+padding-left: 5rem;
+padding-right: 5rem;
+
+}
+
+.contenedor-footer nav a{
+
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.copyright{
+
+    color: white;
+    font-weight: 600;
+
+}
+
+
+                /* *PAGINAS INTERNAS* */
+
+/* *** NAVEGACION NOSOTROS** */
+
+.header-nosotros
+{
+    margin-top: 0rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 4rem;
+    padding-top: 1.5rem;
+
+}       
+
+.nav-footer-nosotros
+{   display: flex;
+    padding-top: 1.5rem;
+    font-size: 0.2rem;
+    text-transform: capitalize;
+
+}
+
+.site-nosotros h1{
+
+    font-weight: 300;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+
+
+}
+
+.contenido-nosotros{
+
+    display: flex;
+    
+}
+
+.contenido-nosotros img{
+
+    width: 30rem;
+    padding-right: 1rem;
+}
+
+.nosotros-historia blockquote{
+
+    padding-bottom: 1.5rem;   
+    padding-top: 0.5rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-left: 0rem;
+
+}
+
+
+/**** VENTAS ****/
+
+.ventas{
+
+    margin-bottom: 2rem;
+}
+
+
+
+/***PROPIEDAD 1***/
+
+.propiedad{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.propiedad .icons-caracteriticas{
+
+flex: .5;
+
+}
+
+.image_propie{
+
+max-width: 100%;
+
+
+}
+
+
+            /*+** BLOG *****/
+
+
+.blog-1 img{
+
+    margin-right: 1.5rem;
+}
+
+
+             /* CONTACTO */
+             
+
+label{
+
+    display: block;
+    margin-top: .5rem;
+    margin-bottom: .5rem; 
+    padding-top: 1rem; 
+    font-weight: 700;
+    color: #3f3f3f;
+    font-size: 1rem;
+
+}
+
+.contenedor3 h2{
+
+margin-top: 3rem;
+margin-bottom: 3rem;
+
+}
+
+
+.style-form{
+
+    width: 100%;   
+    height: 2.5rem;
+    background-color: #e1e1e1;
+    border: none;
+    border-radius: 0.6rem;
+
+}
+
+textarea{
+        height: 10rem;
+    }
+
+/* PREFIJO */
+select{
+
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+legend{
+    font-size: 1.3rem;
+    color: #333333;
+
+}
+
+fieldset{
+
+margin-top: 1.5rem;
+
+}
+
+.enviar{
+
+    background: #71B100;
+    width: 4.5rem;
+    height: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-top: 3rem;
+    border: none;
+
+}
+
+.enviar:hover{
+
+    cursor: grab;
+
+}
+
+
+
+

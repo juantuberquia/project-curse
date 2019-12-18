@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contactp</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+</head>
+
+
+
+<body>
+        <header>    
+
+                <div>
+        
+                    <footer class="site-footer header-nosotros">
+        
+                        <div>
+                             <a href="/">
+                             <img src="./img/logo.svg" alt="logo tipo bienes   ">
+                        
+                        </a>
+        
+                        </div>
+        
+                        <nav class="navegacion nav-footer-nosotros">
+                                <a href="nosotros.html" >Nosotros</a>
+                                <a href="anuncios.html">anuncios</a>
+                                <a href="contacts.html">contactos</a>
+                                <a href="blog.html">blog</a>
+                            </nav>
+        
+                    </footer>
+                    
+                </div>
+           
+            </header>
+
+
+
+
+     <h3 class="fw-300 centrar">  Contacto</h3>
+     <img src="./img/destacada3.jpg" alt="">
+
+
+     <main class=" contenedor3  ">
+
+
+            <h2 class="fw-300 centrar " > Llena el Formulario de Contacto </h2>
+
+
+                <form action="">    
+
+                  <fieldset>
+                        <legend> Informacion Personal</legend>
+                            <label for="nombre"  > Nombre: </label>                
+                            <input type="text" id="nombre"  placeholder="Tu Nombre" required class="style-form"> 
+                        
+                            <label for="correo" > E-mail: </label>
+                            <input type="email" id="correo" placeholder="Tu email" required class="style-form" > 
+
+                            <label for="telefono" > Telefono: </label>
+                            <input type="tel"   id="telefono" placeholder="Tu Telefono" required class="style-form">
+
+                            <label for="mensaje" > Mensaje:</label>
+                            <textarea id="mensaje" required placeholder="Escribe.." class="style-form"></textarea>
+                        
+                  </fieldset>
+                
+                  
+
+                     <fieldset>
+                    
+                            <legend> Informacion Sobre Propiedad</legend> 
+        
+                                <label for="vender">Vender o Comprar</label>
+                                <select  id="vender" class="style-form">
+                                    <option value="" disabled selected> --Seleccione--  </option>
+                                    <option value="">Compra</option>
+                                    <option value="">Vende</option>
+                                </select>
+                                
+            
+                                <label for="presupuesto">Presupuesto</label>
+                                <input type="number" min="0" id="presupuesto" class="style-form">
+        
+                        </fieldset>
+        
+        
+        
+                     <fieldset>
+        
+        
+                            <legend >Contacto</legend>
+                    
+                                    <p>Como desea ser contactado:</p>
+                    
+                                  
+                                        <label for="tel"  >Telefono:</label>
+                                        <input type="radio"  id="tel" name="contacto" class="site-radio">
+                                        
+                                                        
+                                        <label for="mail"  >Correo:</label>
+                                        <input type="radio"  id="mail" name="contacto" class="site-radio">
+                    
+                                    
+
+                                    <p>Si Elegio Telefono, Elija la Fecha y la Hora</p>
+                    
+                                    <label for="fecha"> Fecha:</label>
+                                    <input type="date" id="fecha" required class="style-form" >         
+                                    
+                                    <label for="time">Hora:</label> 
+                                    <input type="time" id="time" required class="style-form">   
+                    
+                    
+                            <input type="submit"  value="Enviar" class="enviar">    
+                
+                        </fieldset>
+
+                </form>
+                
+                      
+    
+    </main>
+
+
+
+
+
+            <footer class="site-footer">
+                    <div class=" contenedor-footer footer-nosotros" > 
+                         <nav class="  navegacion " >     
+                               <a href="nosotros.html"> Nosotros</a>
+                               <a href="anuncios.html"> Anuncios</a>
+                               <a href="contacts.html"> Contactos</a>
+                               <a href="blog.html"> Blog</a>
+            
+                       </nav>
+            
+                           <p class="copyright" >todos los derechos reservados &#x000A9;</p> 
+            
+                   </div>
+                  
+            </footer>
+    
+</body>
+</html>
